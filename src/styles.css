@@ -82,6 +82,7 @@ button {
 
 .nav-center a {
   font-size: 18px;
+  font-family: "inherit";
   letter-spacing: 0.6px;
   color: var(--ink);
   position: relative;
