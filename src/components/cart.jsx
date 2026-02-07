@@ -8,7 +8,9 @@ export default function Cart() {
     return (
       <div className="section">
         <h2>Your cart is empty</h2>
-        <Link to="/products">Go to Shop</Link>
+        <p>Oops!! Looks like you haven't added anything to your cart yet.</p>
+        <button className="shop-btn"><Link to="/products">Go to Shop</Link></button>
+       
       </div>
     );
   }
