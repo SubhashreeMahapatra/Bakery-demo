@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import ProductCard from "./ProductCard";
+import ProductCard from "./productcard";
 
 export default function ProductCarousel({ products }) {
   const scrollRef = useRef(null);
