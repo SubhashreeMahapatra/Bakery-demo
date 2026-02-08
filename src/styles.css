@@ -839,7 +839,7 @@ button {
 }
 .success-card button{
   display: block;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
   background: none;
   color: var(--success);
   border: 1px solid var(--success);
@@ -852,7 +852,7 @@ button {
 }
 .retry-btn {
   display: block;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
   background: none;
   color: var(--danger);
   border: 1px solid var(--danger);
@@ -869,7 +869,7 @@ button {
 }
 .back-home {
   display: block;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
   background: none;
   color: var(--chocolate);
   border: 1px solid var(--chocolate);
@@ -905,7 +905,7 @@ button {
 }
 .shop-btn {
   display: block;
-  margin: 30px auto 0;
+  margin: 20px auto 0;
   background: none;
   color: var(--chocolate);
   border: 1px solid var(--chocolate);
