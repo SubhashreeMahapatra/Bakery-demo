@@ -851,8 +851,8 @@ button {
 }
 .success-card button{
   display: flex;
-  background: none;
-  color: var(--success);
+  background: #3B82F6 ;
+  color: #2563EB; 
    border: none;
   padding: 12px 24px;
   border-radius: 10px;
@@ -863,8 +863,8 @@ button {
   transition: all 0.2s ease;
 }
 .sucess-card button: hover{
-   background : var(-- blue);
-   color : white;
+   background : #F9FAFB;
+   color : #1D4ED8;
 }
 .retry-btn {
   background: #ef4444;        /* premium red */
