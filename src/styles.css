@@ -863,7 +863,7 @@ button {
 }
 .download-button: hover {
    background : #F9FAFB;
-   transform;
+   color: white;
 }
 .retry-btn {
   background: #ef4444;        /* premium red */
@@ -900,7 +900,7 @@ button {
 .button-group {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 15px;
 }
 .icon-wrapper {
   width: 56px;
