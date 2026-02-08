@@ -112,7 +112,7 @@ export default function OrderSuccess() {
         <p><strong>Payment ID:</strong> {paymentId}</p>
         <div className= "button-group">
         <button className= "download-button" onClick={generateAndSendInvoice}>
-          Download Invoice Again
+          Download Invoice 
         </button>
         
 
