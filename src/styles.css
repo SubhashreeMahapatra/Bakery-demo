@@ -824,6 +824,67 @@ button {
   border-radius: var(--radius-lg);
   box-shadow: 0 40px 90px rgba(0,0,0,0.15);
 }
+.success-card,
+.failure-card h2 {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+.success-card,
+.failure-card p {
+  display: flex;
+  gap: 12px;
+  color: var(--success);
+  justify-content: center;
+  margin-top: 12px;
+}
+.success-card button{
+  display: block;
+  margin: 30px auto 0;
+  background: none;
+  color: var(--success);
+  border: 1px solid var(--success);
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.35s ease;
+}
+.retry-btn {
+  display: block;
+  margin: 30px auto 0;
+  background: none;
+  color: var(--danger);
+  border: 1px solid var(--danger);
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.35s ease;
+}
+.retry-btn:hover {
+  background: var(--danger);
+  color: white;
+}
+.back-home {
+  display: block;
+  margin: 30px auto 0;
+  background: none;
+  color: var(--chocolate);
+  border: 1px solid var(--chocolate);
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.35s ease;
+}
+.back-home:hover {
+  background: var(--chocolate);
+  color: white;
+}
+
 .social-icons {
   display: flex;
   gap: 12px;
@@ -841,6 +902,19 @@ button {
   text-align: center;
   max-width: 480px;
   margin: 12px auto 0;
+}
+.shop-btn {
+  display: block;
+  margin: 30px auto 0;
+  background: none;
+  color: var(--chocolate);
+  border: 1px solid var(--chocolate);
+  padding: 12px 28px;
+  border-radius: 40px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.35s ease;
 }
 /* ===============================
    FOOTER
