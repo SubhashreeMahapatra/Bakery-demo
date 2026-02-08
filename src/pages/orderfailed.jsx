@@ -9,7 +9,8 @@ export default function OrderFailed() {
         <h1>Payment Failed</h1>
         <p>Your payment was not completed.</p>
         <p>Please try again or choose another method.</p>
-
+        
+        <div classname ="button-group">
         <Link to="/checkout" className="retry-btn">
           Try Again
         </Link>
@@ -17,6 +18,7 @@ export default function OrderFailed() {
         <Link to="/" className="back-home">
           Back to Home
         </Link>
+          </div>
       </div>
       </div>
     </section>
