@@ -849,9 +849,8 @@ button {
   color: #6b7280;
   margin-bottom: 24px;
 }
-.success-card button{
-  display: flex;
-  background: #3B82F6 ;
+.download-button {
+  background: #0000FF ;
   color: #2563EB; 
    border: none;
   padding: 12px 24px;
@@ -862,9 +861,9 @@ button {
   width: 100%;
   transition: all 0.2s ease;
 }
-.sucess-card button: hover{
+.download-button: hover {
    background : #F9FAFB;
-   color : #1D4ED8;
+   transform;
 }
 .retry-btn {
   background: #ef4444;        /* premium red */
