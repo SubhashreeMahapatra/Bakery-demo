@@ -111,11 +111,10 @@ export default function OrderSuccess() {
         <p>Your order has been placed successfully.</p>
         <p><strong>Payment ID:</strong> {paymentId}</p>
         <div className= "button-group">
-          <div className= "download-button">
-        <button onClick={generateAndSendInvoice}>
+        <button className= "download-button" onClick={generateAndSendInvoice}>
           Download Invoice Again
         </button>
-        </div>
+        
 
         <Link to="/" className="back-home">
           Back to Home
