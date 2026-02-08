@@ -104,8 +104,10 @@ export default function OrderSuccess() {
 
   return (
     <section className="order-success">
+      <div class="sucess-wrapper">
       <div className="success-card">
-        <h1>🎉 Payment Successful</h1>
+         <div class="icon-wrapper">🎉</div>
+        <h1> Payment Successful</h1>
         <p>Your order has been placed successfully.</p>
         <p><strong>Payment ID:</strong> {paymentId}</p>
 
@@ -116,6 +118,7 @@ export default function OrderSuccess() {
         <Link to="/" className="back-home">
           Back to Home
         </Link>
+      </div>
       </div>
     </section>
   );
